@@ -1,65 +1,114 @@
-# Praktikum Data Engineering and Big Data Systems
+<div align="center">
 
-**Kode Mata Kuliah:** CW6552021549  
-**Semester:** V (Lima)  
-**SKS:** 3 SKS  
-**Program Studi:** Informatika  
-**Fakultas:** Teknik  
-**Universitas:** Universitas Muhammadiyah Makassar
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5+-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Hadoop](https://img.shields.io/badge/Apache%20Hadoop-3.3+-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-Latest-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-Educational-green?style=for-the-badge)
+
+# ⚡ Praktikum Data Engineering and Big Data Systems
+
+### *Membangun Pipeline Data yang Scalable dan Reliable*
+
+**Laboratorium Informatika**  
+**Fakultas Teknik - Universitas Muhammadiyah Makassar**
+
+---
+
+[![Made with ❤️ by devnolife](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-devnolife-red?style=flat-square)](https://github.com/devnolife)
+
+</div>
+
+---
+
+## 📋 Informasi Mata Kuliah
+
+| Atribut | Detail |
+|---------|--------|
+| **Kode Mata Kuliah** | `CW6552021549` |
+| **Semester** | V (Lima) |
+| **SKS** | 3 SKS |
+| **Program Studi** | Informatika |
+| **Fakultas** | Teknik |
+| **Universitas** | Universitas Muhammadiyah Makassar |
 
 ---
 
 ## 📘 Deskripsi
 
-Sistem AI yang canggih tidak akan berguna tanpa data yang berkualitas dan alur kerja yang andal. Mata kuliah ini berfokus pada siklus hidup data: penyerapan (ingestion), penyimpanan, dan pemrosesan dataset skala besar menggunakan teknologi seperti Apache Spark, Hadoop, dan layanan data berbasis cloud.
+> Sistem AI yang canggih tidak akan berguna tanpa data yang berkualitas dan alur kerja yang andal. Mata kuliah ini berfokus pada **siklus hidup data**: penyerapan (*ingestion*), penyimpanan, dan pemrosesan dataset skala besar menggunakan teknologi seperti **Apache Spark**, **Hadoop**, dan layanan data berbasis cloud.
 
 ## 🎯 Capaian Pembelajaran
 
-Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
+<table>
+<tr>
+<td>
 
-1. Memahami arsitektur big data dan data pipeline
-2. Menguasai Apache Spark untuk distributed computing
-3. Mampu membangun ETL pipeline yang robust
-4. Mengimplementasikan data warehousing dan data lake
-5. Menggunakan cloud services untuk big data processing
+| No | Capaian |
+|----|---------|
+| 1 | Memahami **arsitektur big data** dan data pipeline |
+| 2 | Menguasai **Apache Spark** untuk distributed computing |
+| 3 | Mampu membangun **ETL pipeline** yang robust |
+| 4 | Mengimplementasikan **data warehousing** dan data lake |
+| 5 | Menggunakan **cloud services** untuk big data processing |
 
-## 📚 Struktur Materi
+</td>
+</tr>
+</table>
 
-Repositori ini mencakup materi untuk **8 pertemuan pertama** (sampai UTS):
+## 📚 Roadmap Pembelajaran
 
-| Pertemuan | Topik | Teknologi |
-|-----------|-------|-----------|
-| [01](./pertemuan-01) | **Introduction to Big Data Ecosystem** | Hadoop, Spark setup |
-| [02](./pertemuan-02) | **HDFS: Hadoop Distributed File System** | HDFS operations, data ingestion |
-| [03](./pertemuan-03) | **MapReduce Fundamentals** | Hadoop MapReduce, Word Count |
-| [04](./pertemuan-04) | **Apache Spark: RDD & DataFrames** | Spark Core, RDD, DataFrames |
-| [05](./pertemuan-05) | **Spark SQL dan Data Manipulation** | Spark SQL, query optimization |
-| [06](./pertemuan-06) | **Data Streaming dengan Kafka** | Apache Kafka, Producer/Consumer |
-| [07](./pertemuan-07) | **Spark Streaming** | Structured Streaming, real-time processing |
-| [08](./pertemuan-08) | **UTS: Mini Project Data Pipeline** | End-to-end ETL pipeline |
+> Materi dirancang untuk **8 pertemuan** dengan pendekatan *hands-on learning*
 
-## 🚀 Getting Started
+```mermaid
+graph LR
+    A[🌐 Big Data] --> B[📁 HDFS]
+    B --> C[🗺️ MapReduce]
+    C --> D[⚡ Spark]
+    D --> E[🔍 SQL]
+    E --> F[📡 Kafka]
+    F --> G[🌊 Streaming]
+    G --> H[🏆 Project]
+```
+
+| Pertemuan | Topik | Teknologi | Status |
+|:---------:|-------|-----------|:------:|
+| **01** | [Introduction to Big Data Ecosystem](./pertemuan-01) | Hadoop, Spark setup | 🟢 |
+| **02** | [HDFS: Hadoop Distributed File System](./pertemuan-02) | HDFS operations, data ingestion | 🟢 |
+| **03** | [MapReduce Fundamentals](./pertemuan-03) | Hadoop MapReduce, Word Count | 🟢 |
+| **04** | [Apache Spark: RDD & DataFrames](./pertemuan-04) | Spark Core, RDD, DataFrames | 🟢 |
+| **05** | [Spark SQL dan Data Manipulation](./pertemuan-05) | Spark SQL, query optimization | 🟢 |
+| **06** | [Data Streaming dengan Kafka](./pertemuan-06) | Apache Kafka, Producer/Consumer | 🟢 |
+| **07** | [Spark Streaming](./pertemuan-07) | Structured Streaming, real-time processing | 🟢 |
+| **08** | [UTS: Mini Project Data Pipeline](./pertemuan-08) | End-to-end ETL pipeline | 🎯 |
+
+## 🚀 Quick Start
 
 ### Prerequisites
 
+<details>
+<summary>📋 Klik untuk melihat System Requirements</summary>
+
 **Required:**
-- Java JDK 11+
-- Python 3.8+
-- Docker & Docker Compose (recommended)
-- Git
-- 8GB+ RAM
-- 20GB+ disk space
+- ✅ Java JDK 11+
+- ✅ Python 3.8+
+- ✅ Docker & Docker Compose (recommended)
+- ✅ Git
+- ✅ 8GB+ RAM
+- ✅ 20GB+ disk space
 
 **Recommended:**
-- Linux/macOS (atau WSL2 untuk Windows)
-- IDE: VSCode, IntelliJ, PyCharm
-- Terminal emulator
+- 🐧 Linux/macOS (atau WSL2 untuk Windows)
+- 💻 IDE: VSCode, IntelliJ, PyCharm
+- 🖥️ Terminal emulator
 
-### Quick Setup (Docker - Recommended)
+</details>
+
+### 🐳 Docker Setup (Recommended)
 
 ```bash
 # Clone repository
-git clone https://github.com/[your-username]/data-engineering-practicum.git
+git clone https://github.com/devnolife/data-engineering-practicum.git
 cd data-engineering-practicum
 
 # Start services
@@ -68,14 +117,20 @@ docker-compose up -d
 
 # Verify
 docker ps
-
-# Access services:
-# - Spark UI: http://localhost:8080
-# - HDFS UI: http://localhost:9870
-# - Kafka UI: http://localhost:9000
 ```
 
-### Manual Setup
+<div align="center">
+
+| Service | URL |
+|---------|-----|
+| 🔥 Spark UI | http://localhost:8080 |
+| 📁 HDFS UI | http://localhost:9870 |
+| 📡 Kafka UI | http://localhost:9000 |
+
+</div>
+
+<details>
+<summary>🔧 Manual Setup (Advanced)</summary>
 
 #### Install Hadoop
 ```bash
@@ -106,103 +161,145 @@ export PATH=$PATH:$SPARK_HOME/bin
 pip install pyspark kafka-python pandas numpy
 ```
 
-## 📖 Cara Menggunakan Repository
+</details>
 
-### Untuk Setiap Pertemuan:
+---
 
-1. **Baca README.md** di folder pertemuan
-2. **Setup environment** sesuai instruksi
-3. **Ikuti tutorial** step-by-step
-4. **Kerjakan tugas** yang diberikan
-5. **Submit** hasil praktikum
+## 📖 Panduan Penggunaan
 
-### Struktur Folder:
+### Workflow Setiap Pertemuan
 
 ```
-data-engineering-practicum/
-├── README.md
-├── docker/
+📖 Baca README → 🔧 Setup Environment → 💻 Ikuti Tutorial → ✅ Submit
+```
+
+### Struktur Repository
+
+```
+📁 data-engineering-practicum/
+├── 📄 README.md
+├── 📁 docker/
 │   └── docker-compose.yml
-├── datasets/
+├── 📁 datasets/
 │   └── sample-data/
-├── pertemuan-01/
-│   ├── README.md
-│   └── [your-code]/
-├── pertemuan-02/
-│   └── ...
-└── pertemuan-08/
-    └── README.md (UTS Guidelines)
+├── 📁 pertemuan-01/
+│   ├── 📄 README.md
+│   └── 📁 [your-code]/
+└── 📁 pertemuan-08/
+    └── 📄 README.md (UTS Guidelines)
 ```
 
-## 💻 Teknologi Stack
+---
+
+## 💻 Tech Stack
+
+<div align="center">
 
 ### Core Technologies
-- **Apache Hadoop 3.3+**: Distributed storage & processing
-- **Apache Spark 3.5+**: Unified analytics engine
-- **Apache Kafka**: Event streaming platform
-- **HDFS**: Distributed file system
+
+| Technology | Purpose |
+|:----------:|---------|
+| ![Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) | Distributed storage & processing |
+| ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) | Unified analytics engine |
+| ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) | Event streaming platform |
+| ![HDFS](https://img.shields.io/badge/HDFS-007ACC?style=flat-square&logo=apache&logoColor=white) | Distributed file system |
 
 ### Programming Languages
-- **Python**: PySpark, data processing
-- **Scala**: Alternative untuk Spark
-- **Bash**: Automation scripts
-- **SQL**: Data querying
+
+| Language | Purpose |
+|:--------:|---------|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | PySpark, data processing |
+| ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white) | Alternative untuk Spark |
+| ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | Automation scripts |
+| ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) | Data querying |
 
 ### Tools & Utilities
-- **Docker**: Containerization
-- **Jupyter Notebook**: Interactive development
-- **Git**: Version control
+
+| Tool | Purpose |
+|:----:|---------|
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | Containerization |
+| ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) | Interactive development |
+| ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) | Version control |
+
+</div>
+
+---
 
 ## 📊 Sistem Penilaian
 
-| Komponen | Bobot |
-|----------|-------|
-| Kehadiran & Partisipasi | 10% |
-| Tugas Mingguan (Weekly Labs) | 30% |
-| UTS (Mid-term Project) | 25% |
-| UAS (Final Project & Presentation) | 35% |
-| **TOTAL** | **100%** |
+<div align="center">
 
-### Kriteria Kelulusan:
-- Nilai akhir minimal: **60 (D)**
-- Kehadiran minimal: **75%**
-- Mengumpulkan minimal **75%** tugas
-- Mengikuti UTS dan UAS
+```
+┌─────────────────────────────────────────────────────────┐
+│                    DISTRIBUSI NILAI                      │
+├─────────────────────────────────────────────────────────┤
+│  ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10% Kehadiran │
+│  ██████████████████████████░░░░░░░░░░░░░  30% Tugas     │
+│  ████████████████████░░░░░░░░░░░░░░░░░░░  25% UTS       │
+│  ██████████████████████████████░░░░░░░░░  35% UAS       │
+└─────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+| Komponen | Bobot | Keterangan |
+|----------|:-----:|------------|
+| 📋 Kehadiran & Partisipasi | 10% | Minimal kehadiran 75% |
+| 📝 Tugas Mingguan | 30% | Weekly Labs |
+| 📊 UTS | 25% | Mid-term Project |
+| 🎯 UAS | 35% | Final Project & Presentation |
+
+### ✅ Kriteria Kelulusan
+
+- [x] Nilai akhir minimal: **60 (D)**
+- [x] Kehadiran minimal: **75%**
+- [x] Mengumpulkan minimal **75%** tugas
+- [x] Mengikuti UTS dan UAS
+
+---
 
 ## 📝 Submission Guidelines
 
-### Format:
+### Format Struktur Folder
+
 ```
-NIM_Nama_PertemuanXX/
-├── code/
+📁 NIM_Nama_PertemuanXX/
+├── 📁 code/
 │   ├── ingestion/
 │   ├── processing/
 │   └── README.md
-├── docs/
+├── 📁 docs/
 │   └── report.pdf
-└── output/
+└── 📁 output/
     └── results/
 ```
 
-### Checklist:
-- [ ] Code bisa di-run
-- [ ] Documentation lengkap
-- [ ] Screenshots/logs included
-- [ ] Performance analysis
-- [ ] Error handling implemented
+### ✅ Checklist Sebelum Submit
+
+- [ ] ✓ Code bisa di-run
+- [ ] ✓ Documentation lengkap
+- [ ] ✓ Screenshots/logs included
+- [ ] ✓ Performance analysis
+- [ ] ✓ Error handling implemented
+
+---
 
 ## 🔧 Troubleshooting
 
-### Common Issues:
+<details>
+<summary>❌ Out of Memory</summary>
 
-**Out of Memory:**
 ```bash
 # Increase Spark memory
 export SPARK_DRIVER_MEMORY=4g
 export SPARK_EXECUTOR_MEMORY=4g
 ```
 
-**HDFS Connection Failed:**
+</details>
+
+<details>
+<summary>❌ HDFS Connection Failed</summary>
+
 ```bash
 # Check if services running
 jps
@@ -212,7 +309,11 @@ stop-dfs.sh
 start-dfs.sh
 ```
 
-**Kafka Not Starting:**
+</details>
+
+<details>
+<summary>❌ Kafka Not Starting</summary>
+
 ```bash
 # Check Docker logs
 docker logs kafka
@@ -221,86 +322,122 @@ docker logs kafka
 docker-compose restart
 ```
 
-## 📚 Resources
+</details>
 
-### Official Documentation:
-- [Apache Hadoop](https://hadoop.apache.org/docs/stable/)
-- [Apache Spark](https://spark.apache.org/docs/latest/)
-- [Apache Kafka](https://kafka.apache.org/documentation/)
+---
 
-### Learning Resources:
+## 📚 Referensi & Resources
+
+<details>
+<summary>📖 Official Documentation</summary>
+
+| Technology | Documentation |
+|------------|---------------|
+| Apache Hadoop | [hadoop.apache.org](https://hadoop.apache.org/docs/stable/) |
+| Apache Spark | [spark.apache.org](https://spark.apache.org/docs/latest/) |
+| Apache Kafka | [kafka.apache.org](https://kafka.apache.org/documentation/) |
+
+</details>
+
+<details>
+<summary>🎓 Learning Resources</summary>
+
 - [Big Data University](https://cognitiveclass.ai/)
 - [Databricks Academy](https://www.databricks.com/learn/training)
 - [Confluent Kafka Tutorials](https://kafka-tutorials.confluent.io/)
 
-### Books:
-- "Hadoop: The Definitive Guide" by Tom White
-- "Learning Spark" by Holden Karau
-- "Designing Data-Intensive Applications" by Martin Kleppmann
+</details>
 
-## 💡 Tips Sukses
+<details>
+<summary>📚 Recommended Books</summary>
 
-1. **Hands-on Practice**: Big Data is learned by doing
-2. **Start Small**: Test locally before scaling
-3. **Monitor Resources**: Watch CPU, memory, disk usage
-4. **Read Logs**: Errors contain valuable debugging info
-5. **Optimize**: Profile and improve performance
-6. **Collaborate**: Discuss with peers, but don't plagiarize
-7. **Stay Updated**: Technologies evolve rapidly
+- *"Hadoop: The Definitive Guide"* by Tom White
+- *"Learning Spark"* by Holden Karau
+- *"Designing Data-Intensive Applications"* by Martin Kleppmann
 
-## 👥 Tim Pengajar
-
-**Dosen Pengampu:**  
-[Nama Dosen]
-
-**Asisten Praktikum:**  
-[Nama Asisten]
-
-## 📧 Kontak & Support
-
-- **Email:** [email dosen/asisten]
-- **Office Hours:** [jadwal konsultasi]
-- **Forum:** [link forum kelas]
-
-## 📄 Lisensi
-
-Materi ini dibuat untuk keperluan pendidikan di Universitas Muhammadiyah Makassar.
+</details>
 
 ---
 
-## 🎓 Data Engineering Principles
+## 💡 Data Engineering Principles
 
-**Remember these principles:**
+<div align="center">
 
-1. **Data Quality > Data Quantity**
-2. **Idempotent Pipelines** - Same input = Same output
-3. **Monitor Everything** - Logs, metrics, alerts
-4. **Test Early, Test Often**
-5. **Document for Future You**
-6. **Security First** - Encrypt, authenticate, authorize
-7. **Fail Fast** - Catch errors early
-8. **Scale Horizontally** - Add nodes, not resources
+| 🎯 | Principle |
+|:--:|-----------|
+| 1️⃣ | **Data Quality > Data Quantity** |
+| 2️⃣ | **Idempotent Pipelines** - Same input = Same output |
+| 3️⃣ | **Monitor Everything** - Logs, metrics, alerts |
+| 4️⃣ | **Test Early, Test Often** |
+| 5️⃣ | **Document for Future You** |
+| 6️⃣ | **Security First** - Encrypt, authenticate, authorize |
+| 7️⃣ | **Fail Fast** - Catch errors early |
+| 8️⃣ | **Scale Horizontally** - Add nodes, not resources |
+
+</div>
+
+---
+
+## 👥 Tim Pengembang
+
+<div align="center">
+
+### 🏛️ Laboratorium Informatika
+**Fakultas Teknik - Universitas Muhammadiyah Makassar**
+
+---
+
+| Role | Nama |
+|------|------|
+| 👨‍💻 **Developer & Maintainer** | [@devnolife](https://github.com/devnolife) |
+| 👨‍🏫 **Dosen Pengampu** | [Nama Dosen] |
+| 👨‍🔬 **Asisten Praktikum** | [Nama Asisten] |
+
+</div>
 
 ---
 
 ## ⚠️ Catatan Penting
 
-- **Backup data** sebelum run destructive operations
-- **Test on sample** before processing full dataset
-- **Plagiarism** akan mendapat sanksi
-- **Deadline** adalah hard deadline
-- Repository **terus diupdate** - pull regularly
+> [!WARNING]
+> - **Backup data** sebelum run destructive operations
+> - **Test on sample** before processing full dataset
+> - **Plagiarism** akan mendapat sanksi
+> - **Deadline** adalah hard deadline
+> - Repository **terus diupdate** - pull regularly
 
 ---
 
+<div align="center">
+
 ## 🚀 Let's Build Data Pipelines!
 
-Mulai dari [Pertemuan 01](./pertemuan-01) dan bangun foundasi Big Data Engineering Anda!
+Mulai dari [**Pertemuan 01**](./pertemuan-01) dan bangun foundasi Big Data Engineering Anda!
 
 **Welcome to the World of Big Data! 📊⚡**
 
 ---
 
-**Last Updated:** December 2024  
-**Version:** 1.0  
-**Maintainer:** [Nama Asisten/Dosen]
+### 📧 Kontak & Support
+
+[![GitHub](https://img.shields.io/badge/GitHub-devnolife-181717?style=for-the-badge&logo=github)](https://github.com/devnolife)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devnolife@gmail.com)
+
+---
+
+<sub>
+
+**Laboratorium Informatika - Fakultas Teknik**  
+**Universitas Muhammadiyah Makassar**  
+
+---
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=100&section=footer)
+
+**Last Updated:** December 2024 | **Version:** 2.0
+
+Made with ❤️ by [devnolife](https://github.com/devnolife)
+
+</sub>
+
+</div>
