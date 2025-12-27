@@ -434,7 +434,7 @@ Mulai dari [**Pertemuan 01**](./pertemuan-01) dan bangun foundasi Big Data Engin
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20&height=100&section=footer)
 
-**Last Updated:** December 2024 | **Version:** 2.0
+**Last Updated:** December 2054 | **Version:** 2.0
 
 Made with ❤️ by [devnolife](https://github.com/devnolife)
 
